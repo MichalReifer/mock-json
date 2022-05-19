@@ -1,6 +1,6 @@
 {
-  success: true,
-  data:{
-    status: 200
+  "success": true,
+  "data":{
+    "status": 200
   }
 }
