@@ -1,5 +1,4 @@
 {
-  "check-token" : [
+  "check-token" :
     {"success": "true",  "data": {"status": 200} }
-  ]
 }
