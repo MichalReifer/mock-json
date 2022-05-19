@@ -1,4 +1,6 @@
 {
-  "check-token" :
-    {"success": "true",  "data": {"status": 200} }
+  "check-token" : {"code": "jwt_auth_valid_token",  "data": {"status": 200} },
+  'current-user': {
+    "success": true, "data": {"firstName": "lala", "lastName": "lili", "userName": "lala@lili.com", "caps": "user"}
+  }
 }
