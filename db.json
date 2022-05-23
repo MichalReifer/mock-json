@@ -2,6 +2,12 @@
   "check-token-valid" : {"code": "jwt_auth_valid_token", "data": {"status": 200} },
   "check-token-invalid" : {"code": "", "data": {"status": 400} },
   "current-user-success": {"success": true, "data": {"firstName": "מיכל", "lastName": "גרטשטיין", "userName": "lala@lili.com", "caps": "user"} },
-  "current-user-fail": {"success": false, "data": {} },
-  "login-user-success": {"success": true, "data": {"token": "lilili", "user": {"firstName": "michal", "lastName": "gart", "userName": "lala@lala.com", "caps": "user"}}}
+  "login-user-success": {"success": true, "data": {"token": "lilili", "user": {"firstName": "michal", "lastName": "gart", "userName": "lala@lala.com", "caps": "user"}}},
+  "questionnaires": [
+    {"title": "שביעות רצון עובדים", "image": "", "description": "להלהלה", "status": "open"},
+    {"title": "ניהול זמן", "image": "", "description": "לי לי לי", "status": "edit"},
+    {"title": "מעקב לקוחות", "image": "", "description": "בלה בלה", "status": "lock"},
+    {"title": "ניהול תקציבים", "image": "", "description": "לו לו ", "status": "'waiting"},
+    {"title": "ניהול אסטרטגי", "image": "", "description": "משהו משהו", "status": "'finished"}
+  ]
 }
