@@ -8,6 +8,7 @@
     {"title": "ניהול זמן", "image": "", "description": "לי לי לי", "status": "edit"},
     {"title": "מעקב לקוחות", "image": "", "description": "בלה בלה", "status": "lock"},
     {"title": "ניהול תקציבים", "image": "", "description": "לו לו ", "status": "waiting"},
-    {"title": "ניהול אסטרטגי", "image": "", "description": "משהו משהו", "status": "finished"}
+    {"title": "ניהול אסטרטגי", "image": "", "description": "משהו משהו", "status": "finished"},
+    {"title": "ניהול יעדים", "image": "", "description": "משהו משהו", "status": "edit"}
   ]
 }
