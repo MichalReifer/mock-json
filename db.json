@@ -8,11 +8,12 @@
     {"id": "fail", "success": false, "data": {}}
   ],
   "register-user": [
-    {"id": "success", "success": true, "data": {"token": "register-token"}}
-  ]
+    {"id": "success", "success": true, "data": {"token": "register-token"}},
+    {"id": "fail", "success": false, "data": {}}
+  ],
   "current-user": [
     {"id":"success-user" ,"success": true, "data": {"firstName": "מיכל", "lastName": "גרטשטיין", "userName": "lala@lili.com", "caps": "user"} },
-    {"id":"success-admin ,"success": true, "data": {"firstName": "חנה", "lastName": "שטמר", "userName": "chana@sh.com", "caps": "admin"} },
+    {"id":"success-admin" ,"success": true, "data": {"firstName": "חנה", "lastName": "שטמר", "userName": "chana@sh.com", "caps": "admin"} },
     {"id":"fail" ,"success": false, "data": {}}
   ],
   "questionnaires": [
