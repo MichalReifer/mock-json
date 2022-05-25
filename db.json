@@ -1,8 +1,12 @@
 {
   "check-token-valid" : {"code": "jwt_auth_valid_token", "data": {"status": 200} },
   "check-token-invalid" : {"code": "", "data": {"status": 400} },
-  "current-user-success": {"success": true, "data": {"firstName": "מיכל", "lastName": "גרטשטיין", "userName": "lala@lili.com", "caps": "user"} },
   "login-user-success": {"success": true, "data": {"token": "lilili", "user": {"firstName": "michal", "lastName": "gart", "userName": "lala@lala.com", "caps": "user"}}},
+  "current-user": [
+    {"id":0 ,"success": true, "data": {"firstName": "מיכל", "lastName": "גרטשטיין", "userName": "lala@lili.com", "caps": "user"} },
+    {"id":1 ,"success": true, "data": {"firstName": "חנה", "lastName": "שטמר", "userName": "chana@sh.com", "caps": "admin"} },
+    {"id":2 ,"success": false, "data": {}}
+  ],
   "questionnaires": [
     {"title": "שביעות רצון עובדים", "image": "", "description": "להלהלה", "status": "open", "id":0},
     {"title": "ניהול זמן", "image": "", "description": "לי לי לי", "status": "edit", "id":1},
@@ -10,6 +14,5 @@
     {"title": "ניהול תקציבים", "image": "", "description": "לו לו ", "status": "waiting", "id":3},
     {"title": "ניהול אסטרטגי", "image": "", "description": "משהו משהו", "status": "finished", "id":4},
     {"title": "ניהול יעדים", "image": "", "description": "משהו משהו", "status": "edit", "id":5}
-  ], 
-  "user-admin": {"success": true, "data": {"firstName": "חנה", "lastName": "שטמר", "userName": "chana@sh.com", "caps": "admin"} }
+  ] 
 }
