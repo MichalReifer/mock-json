@@ -17,11 +17,11 @@
     {"id":"fail" ,"success": false, "data": {}}
   ],
   "questionnaires": [
-    {"title": "שביעות רצון עובדים", "image": "", "description": "להלהלה", "status": "open", "id":0},
-    {"title": "ניהול זמן", "image": "", "description": "לי לי לי", "status": "edit", "id":1},
-    {"title": "מעקב לקוחות", "image": "", "description": "בלה בלה", "status": "lock", "id":2},
-    {"title": "ניהול תקציבים", "image": "", "description": "לו לו ", "status": "waiting", "id":3},
-    {"title": "ניהול אסטרטגי", "image": "", "description": "משהו משהו", "status": "finished", "id":4},
-    {"title": "ניהול יעדים", "image": "", "description": "משהו משהו", "status": "edit", "id":5}
+    {"title": "שביעות רצון עובדים", "image": "", "description": "להלהלה", "status": "open", "statusAdmin": {"open":3, "edit":2, "waiting": 1, "finished":0 }, "id":0},
+    {"title": "ניהול זמן", "image": "", "description": "לי לי לי", "status": "edit",  "statusAdmin": {"open":4, "edit":0, "waiting": 3, "finished":2 }, "id":1},
+    {"title": "מעקב לקוחות", "image": "", "description": "בלה בלה", "status": "lock", "statusAdmin": {"open":1, "edit":1, "waiting": 2, "finished":3 }, "id":2},
+    {"title": "ניהול תקציבים", "image": "", "description": "לו לו ", "status": "waiting", "statusAdmin": {"open":2, "edit":3, "waiting": 2, "finished":0 }, "id":3},
+    {"title": "ניהול אסטרטגי", "image": "", "description": "משהו משהו", "status": "finished", "statusAdmin": {"open":6, "edit":0, "waiting": 5, "finished":4 }, "id":4},
+    {"title": "ניהול יעדים", "image": "", "description": "משהו משהו", "status": "edit", "statusAdmin": {"open":2, "edit":1, "waiting": 3, "finished":1 }, "id":5}
   ] 
 }
