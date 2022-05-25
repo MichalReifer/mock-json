@@ -3,7 +3,7 @@
   "check-token-invalid" : {"code": "", "data": {"status": 400} },
   "login-user-success": {"success": true, "data": {"token": "lilili", "user": {"firstName": "michal", "lastName": "gart", "userName": "lala@lala.com", "caps": "user"}}},
   "current-user": [
-    {"id":0 ,"success": true, "data": {"firstName": "מיכל", "lastName": "גרטשטיין", "userName": "lala@lili.com", "caps": "user"} },
+    {"id":"success-user" ,"success": true, "data": {"firstName": "מיכל", "lastName": "גרטשטיין", "userName": "lala@lili.com", "caps": "user"} },
     {"id":1 ,"success": true, "data": {"firstName": "חנה", "lastName": "שטמר", "userName": "chana@sh.com", "caps": "admin"} },
     {"id":2 ,"success": false, "data": {}}
   ],
