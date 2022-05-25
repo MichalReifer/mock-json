@@ -10,5 +10,6 @@
     {"title": "ניהול תקציבים", "image": "", "description": "לו לו ", "status": "waiting", "id":3},
     {"title": "ניהול אסטרטגי", "image": "", "description": "משהו משהו", "status": "finished", "id":4},
     {"title": "ניהול יעדים", "image": "", "description": "משהו משהו", "status": "edit", "id":5}
-  ]
+  ], 
+  "user-admin": {"success": true, "data": {"firstName": "חנה", "lastName": "שטמר", "userName": "chana@sh.com", "caps": "admin"} },
 }
