@@ -1,4 +1,8 @@
 {
+  "register-user": [
+    {"id": "success", "success": true, "data": {"token": "register-token"}},
+    {"id": "fail", "success": false, "data": {}}
+  ],
   "quesnaires": [
     {"title": "שביעות רצון עובדים", "image": "", "description": "להלהלה", "status": "open", "statusAdmin": {"open":3, "edit":2, "waiting": 1, "finished":0 }, "id":0},
     {"title": "ניהול זמן", "image": "", "description": "לי לי לי", "status": "edit",  "statusAdmin": {"open":4, "edit":0, "waiting": 3, "finished":2 }, "id":1},
