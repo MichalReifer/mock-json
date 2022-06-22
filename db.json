@@ -1,21 +1,4 @@
 {
-  "check-token" : [
-    {"id": "valid", "code": "jwt_auth_valid_token", "data": {"status": 200} },
-    {"id": "invalid", "code": "", "data": {"status": 400} }
-  ],
-  "login-user": [ 
-    {"id": "success", "success": true, "data": {"token": "login-token", "user": {"firstName": "michal", "lastName": "gart", "userName": "lala@lala.com", "caps": "user"}}},
-    {"id": "fail", "success": false, "data": {}}
-  ],
-  "register-user": [
-    {"id": "success", "success": true, "data": {"token": "register-token"}},
-    {"id": "fail", "success": false, "data": {}}
-  ],
-  "current-user": [
-    {"id":"success-user" ,"success": true, "data": {"firstName": "מיכל", "lastName": "גרטשטיין", "userName": "lala@lili.com", "caps": "user"} },
-    {"id":"success-admin" ,"success": true, "data": {"firstName": "חנה", "lastName": "שטמר", "userName": "chana@sh.com", "caps": "admin"} },
-    {"id":"fail" ,"success": false, "data": {}}
-  ],
   "questionnaires": [
     {"title": "שביעות רצון עובדים", "image": "", "description": "להלהלה", "status": "open", "statusAdmin": {"open":3, "edit":2, "waiting": 1, "finished":0 }, "id":0},
     {"title": "ניהול זמן", "image": "", "description": "לי לי לי", "status": "edit",  "statusAdmin": {"open":4, "edit":0, "waiting": 3, "finished":2 }, "id":1},
